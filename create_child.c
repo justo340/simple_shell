@@ -49,10 +49,10 @@ int change_dir(const char *path)
 
 	if (path == NULL)
 		path = getcwd(buf, size);
-		if (chdir(path) == -1)
-		{
-			perror(path);
-			return (98);
-		}
-		return (1);
+	if (chdir(path) == -1)
+	{
+		perror(path);
+		return (98);
+	}
+	return (1);
 }
