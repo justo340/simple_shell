@@ -162,5 +162,5 @@ Node that in the second line the *Ctrl+C*  is typed
 
 ## Authors:
 
-- *justus njogu* - [@justo340](https://github.com/justo340) 
-- *Nicolás Zárate*  - [@Nicolanz](https://github.com/Nicolanz)
+- *Justus Njogu* - [@justo340](https://github.com/justo340) 
+- *Tomkys Gitonga*  - [@stranger254](https://github.com/stranger254)
