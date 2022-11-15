@@ -8,9 +8,9 @@
 #include <unistd.h>
 #include <string.h>
 
-/*==================================================*/
+/*=================================================*/
 /*============     Shell_Init       ==============*/
-/*==================================================*/
+/*=============================================*/
 
 int main(int ac, char **av, char **env);
 void prompt(void);
@@ -26,8 +26,8 @@ void create_child(char **command, char *name, char **env, int cicles);
 int change_dir(const char *path);
 
 /*==================================================*/
-/*============        Execute       ==============*/
-/*==================================================*/
+/*============        Execute       ===============*/
+/*==============================================*/
 
 void execute(char **command, char *name, char **env, int cicles);
 void print_env(char **env);
@@ -41,8 +41,8 @@ void msgerror(char *name, int cicles, char **command);
 char **tokening(char *buffer, const char *s);
 
 /*==================================================*/
-/*============     Free Memory      ==============*/
-/*==================================================*/
+/*============     Free Memory      ===============*/
+/*==============================================*/
 
 void free_dp(char **command);
 void free_exit(char **command);
