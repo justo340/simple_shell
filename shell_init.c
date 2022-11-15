@@ -70,7 +70,7 @@ void handle(int signals)
 
 
 /**
- * _EOF - A function that chaecks if buffer is EOF
+ * _EOF - A function that checks if buffer is EOF
  * @buffer: The pointer to the input string.
  * Return: Nothing
  */
